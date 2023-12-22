@@ -10,3 +10,6 @@ sudo systemctl start docker
 
 sudo firewall-cmd --permanent --add-port=3000/tcp 
 sudo firewall-cmd --reload
+
+docker build -t react-pizza-master .
+docker-compose up
